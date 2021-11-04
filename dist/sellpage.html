@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css" media="(prefers-reduced-motion: no-preference)">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<!--Header-->
+<header class="header">
+    <div class="container">
+        <div class="pre_header">
+            <div class="row justify-content-between">
+                <div class="col-lg-4">
+                    <a href="#" class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        г. Воронеж, Московский проспект 4
+                    </a>
+                </div>
+                <div class="col-lg-4 d-flex flex-wrap align-items-center justify-content-end pils_container ">
+                    <span>Тема: </span>
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Темная
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link second" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Светлая
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_header">
+            <div class="row">
+                <div class="col-lg-2 col-sm-6 col-4">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" alt="IMG">
+                    </a>
+                </div>
+                <div class="col-lg-5 main_menu_box">
+                    <ul class="nav main_menu justify-content-between">
+                        <li class="menu-item-64">
+                            <a href="#">Услуги и цены</a>
+                            <div class="main_menu_container">
+                                <div class="menu_box">
+                                    <h4>Контент</h4>
+                                    <ul class="sub_menu">
+                                        <li><a href="#">3D графика</a></li>
+                                        <li><a href="#">Аудиоролик</a></li>
+                                        <li><a href="#">Монтаж</a></li>
+                                        <li><a href="#">Съемка видео</a></li>
+                                        <li><a href="#">Фото для бизнеса</a></li>
+                                        <li><a href="#">Рекламный ролик</a></li>
+                                        <li><a href="#">Анимационный ролик</a></li>
+                                        <li><a href="#">Видео интро</a></li>
+                                        <li><a href="#">Написание сценария</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu_box">
+                                    <h4>Разработка</h4>
+                                    <ul class="sub_menu">
+                                        <li><a href="#">Создание сайтов</a></li>
+                                        <li><a href="#">Создание приложений</a></li>
+                                        <li><a href="#">Создание лендинга</a></li>
+                                        <li><a href="#">Создание сайта услуг</a></li>
+                                        <li><a href="#">Создание интернет-магазина</a></li>
+                                        <li><a href="#">Создание сайта для бизнеса</a></li>
+                                        <li><a href="#">Создание сайта на CMS</a></li>
+                                        <li><a href="#">Cоздание сайта-визитки</a></li>
+                                        <li><a href="#">Адаптация под мобильные </a></li>
+                                        <li><a href="#">Верстка сайта</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu_box">
+                                    <h4>Дизайн</h4>
+                                    <ul class="sub_menu">
+                                        <li><a href="#">Создание лого</a></li>
+                                        <li><a href="#">Дизайн сайта</a></li>
+                                        <li><a href="#">Дизайн приложения</a></li>
+                                        <li><a href="#">Дизайн полиграфии</a></li>
+                                        <li><a href="#">Брендинг</a></li>
+                                        <li><a href="#">Аватар обложка</a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu_box">
+                                    <h4>Продвижение</h4>
+                                    <ul class="sub_menu">
+                                        <li>
+                                            <a href="#">SMM</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">menu_item1</a></li>
+                                                <li><a href="#">menu_item2</a></li>
+                                                <li><a href="#">menu_item3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Продвижение сайта</a></li>
+                                        <li><a href="#">Контекстная реклама</a></li>
+                                        <li><a href="#">Контент маркетинг</a></li>
+                                        <li><a href="#">Перевод бизнеса в онлайн</a></li>
+                                        <li><a href="#">Продвижение на картах</a></li>
+                                    </ul>
+                                </div>
+                                <div class="close position-absolute"><img src="img/icons/close.png" alt=""></div>
+                            </div>
+                        </li>
+                        <li><a href="#">Кейсы</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-sm-6 col-8 d-flex flex-wrap">
+                    <a href="#" class="phone"><i class="fa fa-phone-alt"></i> 8 (930) 401-93-48</a>
+                    <div class="button_side">
+                        <a href="#" data-text="Заказать звонок" class="btn_bordered call">Заказать звонок</a>
+                        <a href="#" id="modal_open" data-text="Получить коммерческое предложение"
+                           class="btn_bordered take_offer">Получить
+                            коммерческое предложение</a>
+                    </div>
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_menu">
+                <ul class="nav main_menu justify-content-between">
+                    <li class="menu-item-64">
+                        <a href="#">Услуги и цены</a>
+                        <div class="main_menu_container">
+                            <div class="menu_box">
+                                <h4>Контент</h4>
+                                <ul class="sub_menu">
+                                    <li><a href="#">3D графика</a></li>
+                                    <li><a href="#">Аудиоролик</a></li>
+                                    <li><a href="#">Монтаж</a></li>
+                                    <li><a href="#">Съемка видео</a></li>
+                                    <li><a href="#">Фото для бизнеса</a></li>
+                                    <li><a href="#">Рекламный ролик</a></li>
+                                    <li><a href="#">Анимационный ролик</a></li>
+                                    <li><a href="#">Видео интро</a></li>
+                                    <li><a href="#">Написание сценария</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_box">
+                                <h4>Разработка</h4>
+                                <ul class="sub_menu">
+                                    <li><a href="#">Создание сайтов</a></li>
+                                    <li><a href="#">Создание приложений</a></li>
+                                    <li><a href="#">Создание лендинга</a></li>
+                                    <li><a href="#">Создание сайта услуг</a></li>
+                                    <li><a href="#">Создание интернет-магазина</a></li>
+                                    <li><a href="#">Создание сайта для бизнеса</a></li>
+                                    <li><a href="#">Создание сайта на CMS</a></li>
+                                    <li><a href="#">Cоздание сайта-визитки</a></li>
+                                    <li><a href="#">Адаптация под мобильные </a></li>
+                                    <li><a href="#">Верстка сайта</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_box">
+                                <h4>Дизайн</h4>
+                                <ul class="sub_menu">
+                                    <li><a href="#">Создание лого</a></li>
+                                    <li><a href="#">Дизайн сайта</a></li>
+                                    <li><a href="#">Дизайн приложения</a></li>
+                                    <li><a href="#">Дизайн полиграфии</a></li>
+                                    <li><a href="#">Брендинг</a></li>
+                                    <li><a href="#">Аватар обложка</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_box">
+                                <h4>Продвижение</h4>
+                                <ul class="sub_menu">
+                                    <li>
+                                        <a href="#">SMM</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">menu_item1</a></li>
+                                            <li><a href="#">menu_item2</a></li>
+                                            <li><a href="#">menu_item3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Продвижение сайта</a></li>
+                                    <li><a href="#">Контекстная реклама</a></li>
+                                    <li><a href="#">Контент маркетинг</a></li>
+                                    <li><a href="#">Перевод бизнеса в онлайн</a></li>
+                                    <li><a href="#">Продвижение на картах</a></li>
+                                </ul>
+                            </div>
+                            <div class="close position-absolute"><img src="img/icons/close.png" alt=""></div>
+                        </div>
+                    </li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <div class="button_side">
+                    <a href="#" data-text="Заказать звонок" class="btn_bordered call">Заказать звонок</a>
+                    <a href="#" data-text="Получить коммерческое предложение" class="btn_bordered take_offer">Получить
+                        коммерческое предложение</a>
+                </div>
+                <div class="col-lg-4 d-flex flex-wrap align-items-center justify-content-center pils_container">
+                    <span>Тема: </span>
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Темная
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link second" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Светлая
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--end of header-->
+
+<!--sale section-->
+<section class="sale_section">
+    <div class="container">
+        <div class="row content_row">
+            <div class="col-lg-6">
+                <h1 data-text="Контекстная реклама" class="title">Контекстная реклама</h1>
+                <p class="des">Для быстрого получения новых клиентов и увеличения продаж на сайте,
+                    в интернет-магазине
+                    рекомендуется заказать контекстную рекламу в нашем веб-агентстве. Это один из наиболее
+                    эффективных
+                    видов раскрутки сайта, который можно настроить и запустить в течение 2–3 рабочих дней. Сервисы
+                    продвижения через контекстные объявления предлагают поисковые системы Яндекс, Google на своих
+                    и партнёрских площадках, в контекстно-медийных сетях, мобильных приложениях.</p>
+            </div>
+            <div class="col-lg-6">
+                <img class="image wow fadeInRight" data-wow-offset="150" data-wow-delay="150" data-wow-duration="2s"
+                     src="img/img_01.png" alt="IMG">
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of sale section-->
+
+<!--Section 1-->
+<section class="section_01" id="section_01">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="advertising_box">
+                    <img src="img/yandex.png" alt="IMG">
+                    <h3>Контекстная реклама Yandex</h3>
+                    <p>Реклама в Директе размещается в разных блоках. Под строкой поиска располагается блок
+                        «Спецразмещение», в котором рекламируются до 4 фирм. Это место считается самым выгодным
+                        и результативным. Внизу страницы размещается блок гарантированных показов. В других местах
+                        размещаются динамические показы — реклама по самым низким ставкам. В Директе настраивается время
+                        и дата показов, регион, корректируются ставки по времени суток, используются минус-слова.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="advertising_box">
+                    <img src="img/google.png" alt="IMG">
+                    <h3>Контекстная реклама Google</h3>
+                    <p>В поисковике Гугл контекст запускается через сервис Google Ads (AdWords), который интегрируется
+                        в аналитическим ресурсом Гугл Аналитикс. Рекламные объявления показываются в поисковой сети,
+                        на партнёрских ресурсах. Цена рекламы Google также зависит от выбранной ниши и региона,
+                        определяется путём аукциона и каждый день может меняться. Система Google Ads предлагает много
+                        полезных функций настройки рекламных кампаний, для более точного продвижения целевой
+                        аудитории.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of section 1-->
+<!--section 2-->
+<section class="section_02" id="section_02">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="title">Преимущества контекстной рекламы</h2>
+            </div>
+            <div class="col-lg-4">
+                <div class="adv_box">
+                    <img src="img/icons/icon_01.png" alt="IMG">
+                    <h4>Нацеленность
+                        на потенциального покупателя</h4>
+                    <p>Объявление содержит ключевой запрос, который вводят заинтересованные в товаре или услуге
+                        пользователи сети</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="adv_box">
+                    <img src="img/icons/icon_01.png" alt="IMG">
+                    <h4>Стоимость
+                        контекстной рекламы</h4>
+                    <p>Рекламодатель платит только за переходы пользователей на продвигаемый сайт, лендинг,
+                        интернет-магазин. То есть, когда посетитель кликает на объявление и переходит на сайт, только
+                        тогда с бюджета снимается сумма, равная цене клика.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="adv_box">
+                    <img src="img/icons/icon_01.png" alt="IMG">
+                    <h4>Оперативность запуска
+                        контекстной рекламы</h4>
+                    <p>Для старта нужно подобрать ключевые фразы, написать интересное объявление и настроить кампанию
+                        и запустить её. Сразу же после модерации объявления начнут показываться в системе. Таким
+                        образом, можно выйти на первые страницы выдачи в первые дни старта РК и сразу же получить новых
+                        клиентов.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="adv_box">
+                    <img src="img/icons/icon_01.png" alt="IMG">
+                    <h4>Контроль
+                        расходов на рекламу</h4>
+                    <p>Рекламный бюджет настраивается под количество переходов, дни и время показов, другие
+                        метрики. </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="adv_box">
+                    <img src="img/icons/icon_01.png" alt="IMG">
+                    <h4>Широкие
+                        возможности аналитики</h4>
+                    <p>С помощью аналитических сервисов можно отслеживать результативность того или иного объявления,
+                        ключевых фраз. Корректировать ставки, тексты объявлений, регулировать бюджеты на разные РК </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="adv_box">
+                    <img src="img/icons/icon_01.png" alt="IMG">
+                    <h4>Широкие
+                        возможности аналитики</h4>
+                    <p>С помощью аналитических сервисов можно отслеживать результативность того или иного объявления,
+                        ключевых фраз. Корректировать ставки, тексты объявлений, регулировать бюджеты на разные РК </p>
+                </div>
+            </div>
+        </div>
+        <div class="toggle_content">
+
+        </div>
+        <a href="#" data-text="читать полностью" class="read_more btn_bordered_2">читать полностью</a>
+    </div>
+</section>
+<!--end of section  2-->
+<!--section 3-->
+<section class="section_03 content" id="section_03">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="title">Наши достижения
+                    в контекстной рекламе</h2>
+            </div>
+            <div class="col-lg-12">
+                <!-- Slider-->
+                <div class="slider_sell_page">
+                    <!-- Slide-->
+                    <div class="slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p class="slider_title">Результат продвижение проекта «TimeLife«</p>
+                                    <p class="slider_text">Как принято считать, действия представителей оппозиции и по
+                                        сей день остаются уделом либералов, которые жаждут быть функционально разнесены
+                                        на независимые элементы. </p>
+                                    <p class="slider_des">Увеличили поисковый трафик на сайт</p>
+                                    <img class="slider_frame" src="img/slider_frame.png" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="right_image" src="img/slider_mac.png" alt="">
+                                    <div class="row stat_row justify-content-center align-items-center">
+                                        <div class="col-sm-6 col-6 d-flex justify-content-center align-items-center">
+                                            <img src="img/icons/icon_02.png" alt="">
+                                            <div class="info_side">
+                                                <p class="quant">500</p>
+                                                <p class="text">новых клиентов</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-6 d-flex justify-content-center align-items-center">
+                                            <img src="img/icons/icon_03.png" alt="">
+                                            <div class="info_side">
+                                                <p class="quant">30 000 ₽</p>
+                                                <p class="text">Средний чек</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row btn_row">
+                                        <a class="more btn_bordered" data-text="Подробнее" href="#">Подробнее</a>
+                                        <a class="result btn_bordered" data-text="хочу такие результаты" href="#">хочу
+                                            такие
+                                            результаты</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    end of slide-->
+                    <!-- Slide-->
+                    <div class="slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p class="slider_title">Результат продвижение проекта «TimeLife«</p>
+                                    <p class="slider_text">Как принято считать, действия представителей оппозиции и по
+                                        сей день остаются уделом либералов, которые жаждут быть функционально разнесены
+                                        на независимые элементы. </p>
+                                    <p class="slider_des">Увеличили поисковый трафик на сайт</p>
+                                    <img class="slider_frame" src="img/slider_frame.png" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="right_image" src="img/slider_mac.png" alt="">
+                                    <div class="row stat_row justify-content-center align-items-center">
+                                        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+                                            <img src="img/icons/icon_02.png" alt="">
+                                            <div class="info_side">
+                                                <p class="quant">500</p>
+                                                <p class="text">новых клиентов</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 d-flex justify-content-center align-items-center">
+                                            <img src="img/icons/icon_03.png" alt="">
+                                            <div class="info_side">
+                                                <p class="quant">30 000 ₽</p>
+                                                <p class="text">Средний чек</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row btn_row">
+                                        <a class="more" href="#">Подробнее</a>
+                                        <a class="result" href="#">хочу такие результаты</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    end of slide-->
+                </div>
+                <!--                end of slider-->
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of section 3-->
+
+<!--section 4-->
+<section class="section_04" id="section_04">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="box_need">
+                    <h2 class="title">Нуждаетесь в контекстной рекламы?</h2>
+                    <p class="des">Мы точно знаем как вам помочь!</p>
+                    <p class="text">Оставьте заявку и мы сделаем Вам уникальное <br> предложение, которое подойдет
+                        именно Вам</p>
+                    <a href="#" data-text="Получить коммерческое предложение" class="btn_bordered">Получить коммерческое
+                        <br> предложение</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="image wow fadeInRight" data-wow-offset="150" data-wow-delay="150" data-wow-duration="2s"
+                     src="img/cyber_01.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of section 4-->
+<!--section 5-->
+<section class="section_05" id="section_05">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="title">Сколько стоит контекстная реклама <br> в Яндекс и Google?</h2>
+                <p class="des">Стоимость рекламы в Гугл зависит от выбранного направления, уровня конкуренции, региона.
+                    На цену также влияет качество объявления и его уровня конверсии. Чем эффективнее тексты, тем ниже
+                    будет стоимость клика.
+                    Бюджет рассчитывается для каждого отдельного заказа.</p>
+            </div>
+            <div class="tariff_plan_box">
+                <div class="tariff_plan_box__head mini">
+                    <h4>Мини</h4>
+                    <p>Для тех, кто выбирает по цене</p>
+                </div>
+                <p class="price">$50</p>
+                <p class="price_ru">~ 3 800 рублей</p>
+                <ul class="tariff_plan_list">
+                    <li> Для одной услуги или товара</li>
+                    <li> Подбор до 50 ключевых слов</li>
+                    <li> Написание объявлений</li>
+                    <li> Настройка UTM-меток</li>
+                    <li> Настройка 1 кабинета</li>
+                    <li> Отбор минус-слов</li>
+                    <li> Кросс - минусация</li>
+                    <li> Консультация</li>
+                </ul>
+                <a href="#" data-text="оставить заявку" class="btn_bordered">оставить заявку</a>
+            </div>
+            <div class="tariff_plan_box">
+                <div class="tariff_plan_box__head standart">
+                    <h4>Стандарт</h4>
+                    <p>Для развивающегося бизнеса</p>
+                </div>
+                <p class="price">$150</p>
+                <p class="price_ru">~ 11 000 рублей</p>
+                <ul class="tariff_plan_list">
+                    <li> Для небольшого сайта</li>
+                    <li> Подбор до 200 ключевых слов</li>
+                    <li> Написание объявлений</li>
+                    <li> Настройка UTM-меток</li>
+                    <li> Настройка 2 кабинетов</li>
+                    <li> Настройка целей</li>
+                    <li> Отбор минус-слов</li>
+                    <li> Кросс - минусация</li>
+                    <li> Консультация</li>
+                </ul>
+                <a href="#" data-text="оставить заявку" class="btn_bordered">оставить заявку</a>
+            </div>
+            <div class="tariff_plan_box">
+                <div class="tariff_plan_box__head business">
+                    <h4>Бизнес</h4>
+                    <p>Для лидеров ниши</p>
+                </div>
+                <p class="price">$1000</p>
+                <p class="price_ru">от 75 000 рублей</p>
+                <ul class="tariff_plan_list">
+                    <li> Максимальная настройка</li>
+                    <li> Учитываем все возможные настройки</li>
+                    <li> Настройка всех форматов рекламы</li>
+                    <li> Отрисовка Банеров для рекламы</li>
+                    <li> Подбор от 1000 ключевых слов</li>
+                    <li> Бесплатное ведение 1 месяц</li>
+                    <li> Настройка целей</li>
+                    <li> Консультация</li>
+                    <li> РСЯ и КМС</li>
+                </ul>
+                <a href="#" data-text="оставить заявку" class="btn_bordered">оставить заявку</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of section 5-->
+
+
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 footer_logo_box">
+                <a href="#" class="footer_logo">
+                    <img src="img/footer_logo.png" alt="">
+                </a>
+                <div class="info_footer mob">
+                    <ul class="footer_list nav">
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                    </ul>
+                </div>
+                <p class="copyright">© 2016-2021 TIMELIFE</p>
+            </div>
+            <div class="col-lg-5 footer_menu_box">
+                <ul class="nav footer_menu">
+                    <li><a href="#">Услуги и цены</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="privace_list nav">
+                    <li><a href="#">Политика Конфиденциальности</a></li>
+                    <li><a href="#">Согласие на обработку персональных данных</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 ml-auto">
+                <div class="row">
+                    <div class="col-lg-6 info_box">
+                        <div class="info_footer mt-0">
+                            <i class="fa fa-phone-alt"></i>
+                            <a href="#">8 (930) 401-93-48</a>
+                        </div>
+                        <div class="info_footer small_hidden social">
+                            <ul class="footer_list nav">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 info_box">
+                        <div class="info_footer">
+                            <i class="fa fa-envelope"></i>
+                            <a href="#">info@timelife36.ru</a>
+                        </div>
+                        <div class="info_footer">
+                            <i class="fa fa-envelope"></i>
+                            <a href="#">time-life.com@yandex.ru</a>
+                        </div>
+                        <ul class="privace_list mob">
+                            <li><a href="#">Политика Конфиденциальности</a></li>
+                            <li><a href="#">Согласие на обработку персональных данных</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--end of footer-->
+<a href="#" data-text="наверх" class="btn_up" id="button"></a>
+<!--end of content-->
+
+
+<!--pop up-->
+<div id="overlay"></div>
+<div class="modal_window" id="modal_window">
+    <div id="close" class="close_modal"><img src="img/icons/close.png" alt=""></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="modal_title">Заполните форму</p>
+                <p class="modal_des">Наши специалисты свяжуться с Вами и предоставять бесплатную консультацию по вашему
+                    заданию</p>
+                <div class="modal_form_box">
+                    <p>
+                        <input id="user" name="user" type="text" placeholder="Ваше имя" autocomplete="off">
+                    </p>
+                    <p>
+                        <input id="mail" name="mail" type="text" placeholder="Электронная почта" autocomplete="off">
+                    </p>
+                    <p>
+                        <input id="phone" name="phone" type="text" placeholder="Контактный телефон" autocomplete="off">
+                    </p>
+                    <p>
+                        <input id="site" name="site" type="text" placeholder="Адрес сайта" autocomplete="off">
+                        <label for="site"><i class="fa fa-info"></i>
+                            <div class="tooltip_custom">Оставьте адресс на Ваш сайт
+                                и получите <a href="#">бесплатный аудит</a></div>
+                        </label>
+                    </p>
+                    <p>
+                        <textarea id="text" name="text" id="" cols="30" rows="10"
+                                  placeholder="Ваш комментарий"></textarea>
+                    </p>
+                </div>
+                <p class="bold">Последний день выгодных цен!</p>
+                <a data-text="Успей заказать услуги" href="#" class="btn_bordered">Успей заказать услуги
+                    <span>со скидкой!</span>
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <p class="modal_title">Выберите услугу</p>
+                <div class="services_box d-flex flex-wrap justify-content-around">
+                    <div class="col-lg-6">
+                        <p class="modal_second_title">Контент</p>
+                        <input type="checkbox" class="custom_checkbox" name="id_1" id="id_1">
+                        <label for="id_1"><img src="img/icons/3d.png" alt="">3D графика</label>
+                        <input type="checkbox" class="custom_checkbox" name="id_2" id="id_2">
+                        <label for="id_2"><img src="img/icons/audio.png" alt="">Аудиоролик</label>
+                        <input type="checkbox" class="custom_checkbox" name="id_3" id="id_3">
+                        <label for="id_3"><img src="img/icons/mount.png" alt="">Монтаж</label>
+                        <input type="checkbox" class="custom_checkbox" name="id_4" id="id_4">
+                        <label for="id_4"><img src="img/icons/video.png" alt="">Съемка видео</label>
+                        <input type="checkbox" class="custom_checkbox" name="id_5" id="id_5">
+                        <label for="id_5"><img src="img/icons/photo.png" alt="">Фото для бизнеса</label>
+                        <input type="checkbox" class="custom_checkbox" name="id_6" id="id_6">
+                        <label for="id_6"><img src="img/icons/reklama.png" alt="">Рекламный ролик</label>
+                        <input type="checkbox" name="id_7" id="id_7">
+                        <label for="id_7"><img src="img/icons/animation.png" alt="">Анимационный ролик</label>
+                        <input type="checkbox" class="custom_checkbox" name="id_8" id="id_8">
+                        <label for="id_8"><img src="img/icons/video_intro.png" alt="">Видео интро</label>
+                        <input type="checkbox" name="id_9" id="id_9">
+                        <label for="id_9"><img src="img/icons/scenary.png" alt="">Написание сценария</label>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="modal_second_title">Разработка</p>
+                        <input type="checkbox" class="custom_checkbox" id="id_01">
+                        <label for="id_01"><img src="img/icons/site.png" alt="">Создание сайтов</label>
+                        <input type="checkbox" class="custom_checkbox" id="id_02">
+                        <label for="id_02"><img src="img/icons/apps.png" alt="">Создание приложений</label>
+                        <input type="checkbox" class="custom_checkbox" id="id_03">
+                        <label for="id_03"><img src="img/icons/landing.png" alt="">Создание лендинга</label>
+                        <input type="checkbox" class="custom_checkbox" id="id_04">
+                        <label for="id_04"><img src="img/icons/site_services.png" alt="">Создание сайта услуг</label>
+                        <input type="checkbox" class="custom_checkbox" id="id_05">
+                        <label for="id_05"><img src="img/icons/internet_store.png" alt="">Создание
+                            интернет-магазина</label>
+                        <input type="checkbox" class="custom_checkbox" id="id_06">
+                        <label for="id_06"><img src="img/icons/site_busines.png" alt="">Создание сайта для
+                            бизнеса</label>
+                        <input type="checkbox" class="custom_checkbox" id="id_07">
+                        <label for="id_07"><img src="img/icons/site_cms.png" alt="">Создание сайта на CMS</label>
+                        <input type="checkbox" class="custom_checkbox" id="id_08">
+                        <label for="id_08"><img src="img/icons/site_introduce.png" alt="">Cоздание сайта-визитки</label>
+
+                        <input type="checkbox" class="custom_checkbox" id="id_09">
+                        <label
+                                for="id_09"><img src="img/icons/adaptive.png" alt="">Адаптация под мобильные </label>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--pop up-->
+
+<div class="modal_window" id="modal_2">
+    <div id="close_2" class="close_modal"><img src="img/icons/close.png" alt=""></div>
+    <div class="container">
+        <div class="row">
+            <p class="modal_title">Заполните форму</p>
+            <p class="modal_des">Наши специалисты свяжуться с Вами и предоставять бесплатную консультацию по вашему
+                заданию</p>
+            <div class="modal_form_box">
+                <p>
+                    <input id="user" name="user" type="text" placeholder="Ваше имя" autocomplete="off">
+                </p>
+                <p>
+                    <input id="phone" name="phone" type="text" placeholder="Контактный телефон" autocomplete="off">
+                </p>
+                <p>
+                    <input id="site" name="site" type="text" placeholder="Адрес сайта" autocomplete="off">
+                    <label for="site"><i class="fa fa-info"></i>
+                        <span class="tooltip_custom">Оставьте адресс на Ваш сайт
+                            и получите <a href="#">бесплатный аудит</a></span>
+                    </label>
+                </p>
+            </div>
+            <a data-text="Отправить" href="#" class="btn_bordered">Отправить
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/libs.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+<!--end body-->
+</html>
